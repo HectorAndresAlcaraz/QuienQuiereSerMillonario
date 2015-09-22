@@ -35,22 +35,30 @@ public class Pregunta2 extends javax.swing.JFrame {
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton8.setText("50/50");
-        getContentPane().add(jButton8);
-        jButton8.setBounds(250, 0, 73, 23);
+        jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton8MouseClicked(evt);
+            }
+        });
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 0, 73, -1));
 
-        jButton9.setText("Ayuda a un amigo");
-        getContentPane().add(jButton9);
-        jButton9.setBounds(320, 0, 119, 23);
+        jButton9.setText("Ayuda al publico");
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(299, 0, 140, -1));
 
         jButton10.setText("Llamada a un amigo");
-        getContentPane().add(jButton10);
-        jButton10.setBounds(440, 0, 140, 23);
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 0, 140, -1));
 
         jButton11.setText("Hebreo");
         jButton11.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -58,8 +66,7 @@ public class Pregunta2 extends javax.swing.JFrame {
                 jButton11MouseClicked(evt);
             }
         });
-        getContentPane().add(jButton11);
-        jButton11.setBounds(100, 310, 90, 23);
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 310, 90, -1));
 
         jButton12.setText("Japones");
         jButton12.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -72,8 +79,7 @@ public class Pregunta2 extends javax.swing.JFrame {
                 jButton12ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton12);
-        jButton12.setBounds(100, 360, 90, 23);
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 90, -1));
 
         jButton13.setText("Griego");
         jButton13.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -81,8 +87,7 @@ public class Pregunta2 extends javax.swing.JFrame {
                 jButton13MouseClicked(evt);
             }
         });
-        getContentPane().add(jButton13);
-        jButton13.setBounds(390, 310, 80, 23);
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 310, 80, -1));
 
         jButton14.setText("Chino");
         jButton14.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -90,18 +95,19 @@ public class Pregunta2 extends javax.swing.JFrame {
                 jButton14MouseClicked(evt);
             }
         });
-        getContentPane().add(jButton14);
-        jButton14.setBounds(390, 360, 80, 23);
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 360, 80, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("¿Cual es el idioma oficial de Israel?");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(70, 240, 430, 20);
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 240, 430, 20));
+
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Pregunta 2");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 90, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pregunta/qqm-22.jpg"))); // NOI18N
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 590, 390);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -133,6 +139,19 @@ public class Pregunta2 extends javax.swing.JFrame {
         pre.setVisible(true);
         this.setVisible(false);  
     }//GEN-LAST:event_jButton11MouseClicked
+
+    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
+          Utilidad p =new Utilidad();
+       
+        if (p.getCi()==0) {
+        jButton13.setVisible(false);
+        jButton14.setVisible(false);
+       }else{p.cincuenta();}
+    }//GEN-LAST:event_jButton8MouseClicked
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -179,5 +198,6 @@ public class Pregunta2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }
