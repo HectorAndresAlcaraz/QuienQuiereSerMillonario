@@ -10,6 +10,17 @@ package Pregunta;
  * @author w
  */
 public class Utilidad {
-    
-    
+private int ci=0;
+
+    public int getCi() {
+        return ci;
+    }
+
+    public void setCi(int ci) {
+        this.ci = ci;
+    }
+public void cincuenta(){
+ci++;
+}
+
 }

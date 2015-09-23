@@ -5,6 +5,9 @@
  */
 package Ayudas;
 
+import Pregunta.Pregunta3;
+import Pregunta.Pregunta4;
+
 /**
  *
  * @author w
@@ -32,23 +35,31 @@ public class Llamada3 extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setText("Volver");
-        getContentPane().add(jButton1);
-        jButton1.setBounds(180, 193, 100, 30);
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 193, 100, 30));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Accion llevada en gran medida por los politicos.");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(10, 80, 510, 70);
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 510, 70));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Ayudas/telefono.jpg"))); // NOI18N
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 590, 360);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 360));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+        Pregunta3 pr= new Pregunta3();
+        pr.setVisible(true);
+        this.setVisible(false); 
+    }//GEN-LAST:event_jButton1MouseClicked
 
     /**
      * @param args the command line arguments

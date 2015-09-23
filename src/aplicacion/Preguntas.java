@@ -10,5 +10,7 @@ package aplicacion;
  * @author w
  */
 public class Preguntas {
-    
+    public void Pregunta(){
+        System.out.println("Holas");
+    }
 }

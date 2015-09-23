@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Ayudas;
+import Pregunta.Pregunta10;
 import Pregunta.Pregunta11;
 /**
  *
@@ -63,7 +64,7 @@ public class Llamada10 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-        Pregunta11 pr= new Pregunta11();
+        Pregunta10 pr= new Pregunta10();
         pr.setVisible(true);
         this.setVisible(false); 
     }//GEN-LAST:event_jButton1MouseClicked

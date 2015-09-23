@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="cc" red="cc" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,85,0,0,3,75"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="3" y="11" width="830" height="275"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="5" rowCount="15">
+                <Column editable="true" title="Pregunta" type="java.lang.Object">
+                  <Data value="1. Cual es el gentilicio de una persona nacida en B&#xe9;lgica?"/>
+                  <Data value="2.Cual es el idioma oficial de Israel?"/>
+                  <Data value="3.As&#xed; dice el trabalenguas: &quot;Un burro com&#xed;a berros y el perro se los...&quot;"/>
+                  <Data value="4.Que parte del cuerpo se examina en una encefalografia?"/>
+                  <Data value="5.La coroides es una membrana que se encuentra en:"/>
+                  <Data value="6.Cual es el dialecto originario del paraguay?"/>
+                  <Data value="7.Es el nombre de uno de los tres reyes magos"/>
+                  <Data value="8.Segun la cancion de los hombres G, quien tiene un marcapasos"/>
+                  <Data value="9.El albinismo se presenta por la carencia de:"/>
+                  <Data value="10.Donde se desarrollo la civilizacion etrusca"/>
+                  <Data value="11.En la mitologia griega Eros es considerado el Dios de:"/>
+                  <Data value="12.La sede de los navegantes del magallanes queda en:"/>
+                  <Data value="13.Que pais de suramerica esta rodeado por el oceano atlantico y el oceano pacifico?"/>
+                  <Data value="14.Uno de ellos canta &quot;Vamos pa la conga...&quot;"/>
+                  <Data value="15.Cual de los siguientes documentos mide la densidad de los aceites"/>
+                </Column>
+                <Column editable="true" title="A" type="java.lang.Object">
+                  <Data value="Belgatorio"/>
+                  <Data value="Jpones"/>
+                  <Data value="Quito"/>
+                  <Data value="Ovarios"/>
+                  <Data value="EL OJO"/>
+                  <Data value="GUARANI"/>
+                  <Data value="Jugas"/>
+                  <Data value="MARTA"/>
+                  <Data value="Vitamina A"/>
+                  <Data value="Norte de africa"/>
+                  <Data value="AMOR"/>
+                  <Data value="Caracas"/>
+                  <Data value="COLOMBIA"/>
+                  <Data value="RICARDO MONTANER"/>
+                  <Data value="Dinamometro"/>
+                </Column>
+                <Column editable="true" title="B" type="java.lang.Object">
+                  <Data value="Belganes"/>
+                  <Data value="Griego"/>
+                  <Data value="ROBO"/>
+                  <Data value="CRANEO"/>
+                  <Data value="El corazon"/>
+                  <Data value="Espa&#xf1;ol"/>
+                  <Data value="MELCHOR"/>
+                  <Data value="Carla"/>
+                  <Data value="Calcio"/>
+                  <Data value="PENINSULA ITALICA"/>
+                  <Data value="Trabajo"/>
+                  <Data value="VALENCIA"/>
+                  <Data value="Brasil"/>
+                  <Data value="Guillermo davila"/>
+                  <Data value="Micrometro"/>
+                </Column>
+                <Column editable="true" title="C" type="java.lang.Object">
+                  <Data value="Belganita"/>
+                  <Data value="HEBREO"/>
+                  <Data value="escondio"/>
+                  <Data value="Pulmones"/>
+                  <Data value="El pulmon"/>
+                  <Data value="Queshua"/>
+                  <Data value="Barrabas"/>
+                  <Data value="Laura"/>
+                  <Data value="PIGMENTACION"/>
+                  <Data value="Caucaso"/>
+                  <Data value="Odio"/>
+                  <Data value="Maracaibo"/>
+                  <Data value="Argentina"/>
+                  <Data value="Nino bravo"/>
+                  <Data value="OLEOMETRO"/>
+                </Column>
+                <Column editable="true" title="D" type="java.lang.Object">
+                  <Data value="BELGA"/>
+                  <Data value="Chino"/>
+                  <Data value="Llevo"/>
+                  <Data value="Higado"/>
+                  <Data value="El cerebro"/>
+                  <Data value="Chibcha"/>
+                  <Data value="Jonas"/>
+                  <Data value="Alba"/>
+                  <Data value="Oxigeno"/>
+                  <Data value="Norte de oriente"/>
+                  <Data value="Miedo"/>
+                  <Data value="Los teques"/>
+                  <Data value="Uruguay"/>
+                  <Data value="Frank Quintero"/>
+                  <Data value="Holometro"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volver a intentar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="360" y="310" width="160" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>

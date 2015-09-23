@@ -5,6 +5,8 @@
  */
 package Pregunta;
 
+import Ayudas.Llamada2;
+
 /**
  *
  * @author w
@@ -28,7 +30,6 @@ public class Pregunta2 extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
@@ -52,13 +53,15 @@ public class Pregunta2 extends javax.swing.JFrame {
                 jButton8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 0, 73, -1));
-
-        jButton9.setText("Ayuda al publico");
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(299, 0, 140, -1));
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 73, -1));
 
         jButton10.setText("Llamada a un amigo");
-        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 0, 140, -1));
+        jButton10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton10MouseClicked(evt);
+            }
+        });
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 0, 160, -1));
 
         jButton11.setText("Hebreo");
         jButton11.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -153,6 +156,12 @@ public class Pregunta2 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton8ActionPerformed
 
+    private void jButton10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton10MouseClicked
+        Llamada2 pr= new Llamada2();
+        pr.setVisible(true);
+        this.setVisible(false); 
+    }//GEN-LAST:event_jButton10MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -195,7 +204,6 @@ public class Pregunta2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
